@@ -2,6 +2,9 @@
 
 ## Queries
 
+Create the file .env with the content below:
+    DB_CONNECTION=root:PASSWORD@/kitties?charset=utf8&parseTime=True&loc=Local
+    DB_TYPE=mysql
 
 Create a Kitty
 
