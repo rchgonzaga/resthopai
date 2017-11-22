@@ -1,0 +1,37 @@
+hash: 9e374ba7afc2e7560e7ff7d217632da9d2f913d2823b21d0c039521a469f3afd
+updated: 2016-09-09T13:49:19.953014828+02:00
+imports:
+- name: github.com/go-sql-driver/mysql
+  version: 0b58b37b664c21f3010e836f1b931e1d0b0b0685
+- name: github.com/gorilla/context
+  version: aed02d124ae4a0e94fea4541c8effd05bf0c8296
+- name: github.com/gorilla/mux
+  version: 9fa818a44c2bf1396a17f9d5a3c0f6dd39d2ff8e
+- name: github.com/jinzhu/gorm
+  version: 02f6ae3c4ed211472b0492cee02ff3ddfdc1830d
+  subpackages:
+  - dialects/mysql
+- name: github.com/jinzhu/inflection
+  version: 74387dc39a75e970e7a3ae6a3386b5bd2e5c5cff
+- name: github.com/joho/godotenv
+  version: 4ed13390c0acd2ff4e371e64d8b97c8954138243
+- name: github.com/urfave/cli
+  version: c723b19a84af34d905773672ffa1b8ead802e505
+testImports:
+- name: github.com/gopherjs/gopherjs
+  version: 45518c130e5bd1525f20110830a4986365a153de
+  subpackages:
+  - js
+- name: github.com/jtolds/gls
+  version: 8ddce2a84170772b95dd5d576c48d517b22cac63
+- name: github.com/smartystreets/assertions
+  version: 2063fd1cc7c975db70502811a34b06ad034ccdf2
+  subpackages:
+  - internal/go-render/render
+  - internal/oglematchers
+- name: github.com/smartystreets/goconvey
+  version: 5db88ed452e937f2fd557de6f4f1af7f2eabed0b
+  subpackages:
+  - convey
+  - convey/gotest
+  - convey/reporting

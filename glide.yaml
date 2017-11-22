@@ -1,0 +1,12 @@
+package: github.com/laibulle/kitties
+import:
+- package: github.com/gorilla/mux
+- package: github.com/jinzhu/gorm
+  subpackages:
+  - dialects/mysql
+- package: github.com/joho/godotenv
+- package: github.com/urfave/cli
+testImport:
+- package: github.com/smartystreets/goconvey
+  subpackages:
+  - convey
